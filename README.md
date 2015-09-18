@@ -9,3 +9,9 @@ See also:
 ```
 git update-index --chmod=+x foo.sh
 ```
+
+## Conflicts
+
+```
+git diff --diff-filter=U --name-only
+```

@@ -9,6 +9,12 @@ See also:
 * [gg](https://github.com/qw3rtman/gg)
 * [git-extras](https://github.com/tj/git-extras)
 
+## Push Branch to Different Remote Name
+
+```
+git push origin local-name:remote-name
+```
+
 ## Exceutable
 
 ```

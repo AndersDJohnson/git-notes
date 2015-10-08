@@ -9,6 +9,10 @@ See also:
 * [gg](https://github.com/qw3rtman/gg)
 * [git-extras](https://github.com/tj/git-extras)
 
+## Credentials
+### Windows
+* https://github.com/Microsoft/Git-Credential-Manager-for-Windows
+
 ## Push Branch to Different Remote Name
 
 ```

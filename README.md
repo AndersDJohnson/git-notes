@@ -19,6 +19,18 @@ See also:
 git push origin local-name:remote-name
 ```
 
+## Push Delete Tag
+
+```
+git push origin :tagname
+```
+
+or
+
+```
+git push --delete origin tagname
+```
+
 ## Exceutable
 
 ```

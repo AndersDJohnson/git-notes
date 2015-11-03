@@ -42,3 +42,7 @@ git update-index --chmod=+x foo.sh
 ```
 git diff --diff-filter=U --name-only
 ```
+
+## Selective Merge
+
+https://gist.github.com/katylava/564416

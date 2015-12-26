@@ -1,8 +1,10 @@
 # git-notes
 Git notes.
 
-See also:
+## See Also
+
 * [AndersDJohnson/gitconfig](https://github.com/AndersDJohnson/gitconfig)
+* [AndersDJohnson/github-notes](https://github.com/AndersDJohnson/github-notes)
 
 ## Extensions
 * [hub](https://github.com/github/hub)

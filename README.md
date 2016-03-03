@@ -10,6 +10,7 @@ Git notes.
 * [hub](https://github.com/github/hub)
 * [gg](https://github.com/qw3rtman/gg)
 * [git-extras](https://github.com/tj/git-extras)
+* [gitflow](https://github.com/nvie/gitflow)
 
 ## Credentials
 ### Windows

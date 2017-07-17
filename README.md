@@ -46,6 +46,18 @@ git update-index --chmod=+x foo.sh
 git diff --diff-filter=U --name-only
 ```
 
+## Contains Commit
+
+To see what tags or branches contain a given commit:
+
+```
+git tag --contains <commit>
+```
+
+```
+git branch --contains <commit>
+```
+
 ## Selective Merge
 
 https://gist.github.com/katylava/564416

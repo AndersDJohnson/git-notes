@@ -12,7 +12,19 @@ Git notes.
 * [git-extras](https://github.com/tj/git-extras)
 * [gitflow](https://github.com/nvie/gitflow)
 
+## Links
+* [`git pull` considered harmful](http://stackoverflow.com/questions/15316601/in-what-cases-could-git-pull-be-harmful)
+
 ## Credentials
+
+### Credential store
+
+```sh
+git config --global credential.helper store
+```
+
+This will store credentials in `~/.git-credentials`.
+
 ### Windows
 * https://github.com/Microsoft/Git-Credential-Manager-for-Windows
 
@@ -44,6 +56,18 @@ git update-index --chmod=+x foo.sh
 
 ```
 git diff --diff-filter=U --name-only
+```
+
+Checkout & resolve conflicts:
+
+```sh
+git checkout [--theirs|--ours] PATHS...
+```
+
+## Proxy git:// protocol
+
+```sh
+git config --global url."https://".insteadOf git://
 ```
 
 ## Contains Commit
